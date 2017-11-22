@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+
+body {
+  box-sizing: border-box;
+  font-family: "Quicksand";
+  text-align: center;
+  margin: 0 auto;
+  background-color: lightgrey;
+  color: #fff; }
+
+
+.column-container {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+.column {
+  color: #ccc;
+    margin: 10px;
+    min-height: 300px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    max-width: 700px;
+    width: 100%;
+		padding: 10px;
+	  box-shadow: 2px 2px 8px #444;
+}
+
+.column-card-list {
+  padding-left: 0;
+  min-height: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  cursor: move;
+}
+
+.column-title {
+  margin: 5px;
+  padding: 5px;
+word-wrap: break-word;
+  width: 70%;
+  text-align: left;
+}
+
+.card-placeholder {
+	background: red;
+}
+
+.column-card-list li {
+  padding-left: 5px;
+  text-align: left;
+  background-color: #00c7e8;
+  border-radius: 5px;
+  list-style-type: none;
+  color: #fff;
+  margin: 10px 10px;
+
+}
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+ }
+
+  button {
+    background-color: #00c7e8;
+    border: none;
+    outline: none;
+    border-radius: 8%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+    transition: .5s;
+}
+
+button:hover {
+  opacity: 0.5
+}
+
+
+.btn-delete {
+  background-color: inherit;
+  color: red;
+  width: 10%;
+}
+
+.add-card {
+  background-color: inherit;
+  color: green;
+    width: 10%;
+}
